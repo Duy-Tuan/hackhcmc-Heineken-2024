@@ -1,6 +1,9 @@
 from cfg import st, get_yolo, os, Image
 import google.generativeai as genai
 from cfg import SAVE_FOLDER
+from dotenv import load_dotenv
+
+load_dotenv()
 
 st.set_page_config(
     page_title='Streamlit cheat sheet',
@@ -103,7 +106,7 @@ def show_image_info(image_path):
     return result
 
 
-st.logo("logo.png")
+st.logo("./templates/logo.png")
 
 col1, col2, col3, col4, col5 = st.columns([5, 5, 0.7, 0.5, 0.7])
 
