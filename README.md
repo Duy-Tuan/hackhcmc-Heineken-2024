@@ -29,7 +29,7 @@ pip install -r requirements.txt
 3. Dependencies Installation 
 *  Install torch, torchvision, torchaudio
 ```
-pip install tosrch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu118
+pip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu118
 ```
 * Install ultralytics via git
 ```
